@@ -2,11 +2,15 @@
 Enju.NET
 ========
 
-This is a library binding for the Enju NLP parser from Tsujii laboratory (http://www.nactem.ac.uk/enju/).
+This is a library binding for the [Enju NLP parser][1] from Tsujii laboratory.
+It features a mapping of Enju's parse tree to a fully indexed object tree, with lazy walks, both to descendants and ancestors.
 
-It features mapping of Enju's parse tree to a fully indexed object tree, with lazy walks, both to descendants and ancestors.
+> Enju is a syntactic analyzer for English. A grammar is based on
+Head-driven Phrase Structure Grammar (HPSG), which is a linguistic
+theory for syntax. Since this system computes more detailed structure
+of sentences than CFG parsers, you can obtain various information such
+as predicate-argument structures.
 
-   
 Usage
 -----
 
@@ -69,3 +73,5 @@ What is the actual term used?
 This also covers gerunds (like raining).
 
 For more, see the methods of Construct, Token and Sentence;
+
+[1]: https://github.com/mynlp/enju
